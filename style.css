@@ -37,12 +37,12 @@ html {
 @media only screen and (max-width: 650px) {
     .grid {
         grid-template-columns: 50%;
-        grid-template-rows: repeat(7, 40vh);
+        grid-template-rows: repeat(7, 50%);
     }
 }
 
 #item1 {
-   grid-column: span 3;
+   grid-column: span 2;
    color: beige;
    background-color:lightslategrey;
 }
@@ -55,31 +55,31 @@ html {
 
 
 #item3 {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 #item5 {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 #item4 {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 #item8 {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 #item6 {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 #item9 {
-    grid-column: span 2;
+    grid-column: span 1;
 }
 
 #item7 {
     grid-row: span 3;
     color: rgb(238, 238, 240);
-    background-color: rgb(78, 114, 81);
+    background-color: rgb(116, 158, 185);
 }
