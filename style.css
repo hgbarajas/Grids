@@ -25,8 +25,9 @@ html {
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(7, 15vh);
     grid-gap: 10px;
-    height: 75%;
-    width: 75%;
+    height: 65%;
+    width: 65%;
+    margin-left: 16%;
 }
 
 @media only screen and (max-width: 950px) {
@@ -53,32 +54,38 @@ html {
     grid-row: span 3;
     color: rgb(210, 223, 228);
     background-color: rgb(44, 91, 117);
-    object-fit:fill;
+    object-fit:contain;
 }
 
 
 #item3 {
     grid-column: span 1;
+    background-color:rgb(155, 205, 247);
 }
 
 #item5 {
     grid-column: span 1;
+    background-color: rgb(73, 116, 165);
 }
 
 #item4 {
     grid-column: span 1;
+    background-color: rgb(133, 200, 255);
 }
 
 #item8 {
     grid-column: span 1;
+    background-color: rgb(128, 146, 170);
 }
 
 #item6 {
     grid-column: span 1;
+    background-color: rgb(134, 177, 218);
 }
 
 #item9 {
     grid-column: span 1;
+    background-color: rgb(89, 125, 148);
 }
 
 #item7 {
